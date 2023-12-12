@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link href="style5.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <script src="calc.js" defer></script>
+        <div class="main">
+            <div class="list">
+        <ul>
+            <ol>Молоко: 60 руб</ol>
+            <ol>Йогурт: 45 руб</ol>
+            <ol>Творог: 120 руб</ol>
+            <ol>Сыр: 350 руб</ol>
+        </ul>
+            </div>
+            <div class="calc">
+                <label for="choice">
+                    Выберите продукт
+                </label>
+                <select name="choice" id="choice">
+                    <option value="v1">Молоко </option>
+                    <option value="v2">Йогурт</option>
+                    <option value="v3">Творог</option>
+                    <option value="v4">Сыр</option>
+                </select>
+                <label for="cost">
+                    Количество 
+                    <input id="cost" type="text" name="prodcost">
+                </label>
+                <label>
+                    <button id="button">Рассчитать стоимость</button>
+                </label>
+                <div id="result">Стоимость: </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
